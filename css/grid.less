@@ -1,0 +1,57 @@
+@grid: 18px;
+
+/* !Text Styles
+============================================================================*/
+body, h3 {
+    font-size: 12px;
+    line-height: @grid;
+}
+p, h1, h2, ul, ol {
+  	margin-bottom: @grid;
+}
+h1 {
+  	font-size: 24px;
+  	line-height: @grid * 2;
+}
+h2 {
+  	font-size: 18px;
+  	line-height: @grid;
+}
+ul {
+	list-style-type: disc;
+	margin-left: @grid;
+}
+ol {
+	list-style-type: decimal;
+	margin-left: 21px;
+}
+*:first-child+html ol {
+	margin-left: 23px;
+}
+* html ol {
+	margin-left: 23px;
+}
+ul, ol {
+	list-style-position: outside;
+}
+blockquote {
+	margin: 0 @grid;
+}
+hr {
+	width: 75px;
+	height: 0px;
+	margin: 35px auto;
+	display: block;
+	border-top: 1px solid #9A9A9A;
+	border-left: 1px solid #9A9A9A;
+	border-right: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+}
+*:first-child+html body hr {
+	margin: 28px auto;
+	height: 2px;
+}
+* html hr {
+	margin: 28px auto;
+	height: 2px;
+}

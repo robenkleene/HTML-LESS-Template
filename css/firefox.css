@@ -1,0 +1,7 @@
+/* Remember Helvetica in Firefox is broken and displays offset vertically from the baseline, swap in Arial for Helvetica on Firefox until this is fixed */
+
+@-moz-document url-prefix() {
+    p {
+/*		padding: 10px 10px;*/
+    }
+}

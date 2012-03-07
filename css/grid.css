@@ -1,0 +1,43 @@
+body, h3 {
+  font-size: 12px;
+  line-height: 18px;
+}
+p, h1, h2, ul, ol { margin-bottom: 18px; }
+h1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+h2 {
+  font-size: 18px;
+  line-height: 18px;
+}
+ul {
+  list-style-type: disc;
+  margin-left: 18px;
+}
+ol {
+  list-style-type: decimal;
+  margin-left: 21px;
+}
+*:first-child + html ol { margin-left: 23px; }
+* html ol { margin-left: 23px; }
+ul, ol { list-style-position: outside; }
+blockquote { margin: 0 18px; }
+hr {
+  width: 75px;
+  height: 0px;
+  margin: 35px auto;
+  display: block;
+  border-top: 1px solid #9a9a9a;
+  border-left: 1px solid #9a9a9a;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+*:first-child + html body hr {
+  margin: 28px auto;
+  height: 2px;
+}
+* html hr {
+  margin: 28px auto;
+  height: 2px;
+}

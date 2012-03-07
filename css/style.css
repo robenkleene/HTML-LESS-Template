@@ -1,0 +1,28 @@
+/*----------------------------------------------------------------------------
+"Untitled"
+By Roben Kleene
+   www.1percenter.com
+----------------------------------------------------------------------------*/
+
+@import "reset.css";
+@import "grid.css";
+@import "firefox.css";
+
+@import "debug.css";
+
+/* !Generals Styles
+============================================================================*/
+div#page {
+	margin-left: 54px;
+	width: 450px;
+}
+body {
+    font-family: 'Lucida Grande', Arial, sans-serif;
+}
+
+/* !Nav
+============================================================================*/
+#nav li {
+/*	float: left;*/
+	list-style: none;
+}
