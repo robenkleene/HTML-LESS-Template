@@ -12,7 +12,7 @@ By Roben Kleene
 
 /* !Generals Styles
 ============================================================================*/
-div#page {
+div[role="main"] {
 	margin-left: 54px;
 	width: 450px;
 }
